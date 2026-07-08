@@ -19,9 +19,18 @@ const projects = [
         tags: ["XCode", "Swift"],
         demoUrl: "#", // keep or delete?
         githubUrl: "https://github.com/LXMA03/EduTrack"
-    }
+    },
 
     // Add more projects later
+    {
+        id:3,
+        title: "Escape the Darkness",
+        description: "A 3D horror maze game built using raylib and Blender.",
+        image: "./projects/project3.png",
+        tags: ["raylib", "Blender", "C"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/LXMA03/3D-Horror-Game#"
+    }
 ]
 
 export const ProjectsSection = () => {
